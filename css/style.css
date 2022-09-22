@@ -13,16 +13,16 @@ header{
   height: 80px;
   background-color: aqua;
   padding: 0 20px;
-}
-
-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .menu ul:first-child{
+header .menu ul{
   list-style: none;
+}
+
+header .menu ul:first-child{
   display: flex;
 }
 
@@ -40,9 +40,23 @@ header .menu ul li a:hover{
   text-decoration: underline;
 }
 
+nav > ul > li{
+  position: relative;
+}
+
+/* .first-list{
+  position:absolute
+} */
+
 header .menu .dropdown{
-  /* position: absolute; */
-  list-style: none;
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  left: 10px;
+  display: none;
+}
+ .menu ul li:hover .dropdown{
+  display: block;
 }
 
 main{
