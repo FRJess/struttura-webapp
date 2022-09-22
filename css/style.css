@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+header{
+  height: 80px;
+  background-color: aqua;
+}
+
+main{
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+footer{
+  height:70px;
+  background-color: blueviolet;
+}
