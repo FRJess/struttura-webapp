@@ -12,6 +12,31 @@ body{
 header{
   height: 80px;
   background-color: aqua;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu ul{
+  list-style: none;
+  display: flex;
+}
+
+header .menu ul li{
+  margin-right: 20px;
+}
+
+header .menu ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
 }
 
 main{
